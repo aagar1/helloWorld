@@ -1,0 +1,27 @@
+/* Style all paragraphs */
+p {
+    color: #333333;
+    font-size: 16px;
+}
+/* Style level two headings */
+h2 {
+    color: darkblue;
+    font-size: 24px;
+}
+
+table, th, td {
+    border: 1px solid black;
+}
+#future {
+    color: darkgreen;
+    font-size: 18px;
+}
+
+.highlight {
+    color: darkblue;
+}
+/* Set the logo dimensions */
+img.logo {
+    width: 300px;
+    height: 100px;
+}
