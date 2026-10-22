@@ -1,11 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-   <title>About Akhil Agarwala</title>
-<link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-</head>
-<body>
+{% extends "base.html" %}
+
+{% block content %}
 <!-- Main heading for my About Me page -->
 
 <h1>About Me - Akhil Agarwala</h1>
@@ -72,5 +67,4 @@
 <img src="https://terpconnect.umd.edu/~jbono/bmgt407/images/smith-logo.png"
      alt="Robert H. Smith School of Business Logo"
     class="logo">
-</body>
-</html>
+{% endblock %}
