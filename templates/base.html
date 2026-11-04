@@ -56,7 +56,9 @@
 
     <div class="container">
         <h1>TerpSys Student Information System</h1>
-        <h2>{% block page_head %}{% endblock %}</h2>
+        {% if self.page_head() | trim %}
+            <h2>{% block page_head %}{% endblock %}</h2>
+        {% endif %}
 
         <div class="row">
             <div class="col">
